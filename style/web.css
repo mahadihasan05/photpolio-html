@@ -9,7 +9,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin:50px 150px;
+    margin:30px 100px;
 }
 .text-primary{
     color:orangered
@@ -18,13 +18,19 @@ nav ul{
     display: flex;
     align-items: center;
 }
+ .header{
+    background-color: aliceblue;
+    background-image: url(../bgimage.avif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+ }
 nav li{
     style:none;
-    margin-left:50px;
+    margin-left:40px;
 }
 .btn-primary{
     color:white;
-    font-weight: 700px;
+    font-weight: 600px;
     font: size 20px;
     border:0;
     padding:8px 20px 12px 20px;
@@ -34,5 +40,21 @@ background-color:orangered;
 }
  .banner{
     display: flex;
- margin: 0 100px;
+  margin: 0 100px;
+  align-items: center;
 }
+p{
+    font-size: 8px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+ .banner-title{
+    font-weight: 500px;
+    font-size: 50px;
+    margin-bottom: 15px;
+ }
+ .banner-sub-title{
+    font-weight: 500px;
+    font-size: 25px;
+    margin-bottom:15px ;
+ }
