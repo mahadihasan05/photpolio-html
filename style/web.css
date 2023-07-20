@@ -92,5 +92,28 @@ p{
   }
   .what-do{
     margin-top: 30px;
+    margin-bottom: 30px;
 
   }
+   .skills-container{
+    display: flex;
+    margin-top: 30px;
+    align-items:center;
+
+   }
+   .skill-title{
+    font-size: 15px;
+     color:black;
+    justify-content: space-around;
+   }
+   .skill-description{
+    font-size:8px ;
+    color: #474747;
+   }
+   skill{
+    background-color:whitesmoke;
+    margin: 30px 20px;
+    padding: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .6);
+    border-radius: 3px;
+   }
