@@ -6,3 +6,33 @@
     font-width:800;
     font-size: 40px;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 150px;
+}
+.text-primary{
+    color:orangered
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    style:none;
+    margin-left:50px;
+}
+.btn-primary{
+    color:white;
+    font-weight: 700px;
+    font: size 20px;
+    border:0;
+    padding:8px 20px 12px 20px;
+width: 64pxpx;
+height:30px;
+background-color:orangered;
+}
+ .banner{
+    display: flex;
+ margin: 0 100px;
+}
